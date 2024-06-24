@@ -1,0 +1,26 @@
+package com.zebamentoring.Employee;
+
+//Entity class
+public class Employee {
+	// Instance Variables
+	String name;
+	String department;
+
+	// Default Constructor
+	Employee() {
+		super();
+		name = "Zeba";
+		department = "Dev";
+	}
+
+	// Parameterized Constructor
+	Employee(String n, String d) {
+		n = name;
+		d = department;
+	}
+
+	// Method
+	public void displayDetails() {
+		System.out.println(name + "\n" + department);
+	}
+}

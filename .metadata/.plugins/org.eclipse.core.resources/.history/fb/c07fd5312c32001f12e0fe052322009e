@@ -1,0 +1,10 @@
+package com.zebamentoring.Employee;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.displayDetails();
+	}
+
+}

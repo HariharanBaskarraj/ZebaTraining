@@ -1,0 +1,15 @@
+package com.zebamentoring.Employee;
+
+public class Employee {
+	String name;
+	String department;
+
+	Employee() {
+		name = "Zeba";
+		department = "Dev";
+	}
+
+	public void displayDetails() {
+		System.out.println(name + "\n" + department);
+	}
+}

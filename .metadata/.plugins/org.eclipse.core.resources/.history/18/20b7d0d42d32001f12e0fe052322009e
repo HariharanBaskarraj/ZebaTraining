@@ -1,0 +1,10 @@
+package com.zebamentoring.Employee;
+
+public class Student extends Employee{
+	String name;
+	
+	Student(){
+		super();
+		name = "Tom";
+	}
+}
